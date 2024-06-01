@@ -1,0 +1,17 @@
+{
+  "name": "mindcare",
+  "version": "1.0.0",
+  "main": "out/index.js",
+  "scripts": {
+    "dev": "ts-node src/index",
+    "build": "tsc src/index.ts",
+    "start": "tsc src/index.ts && node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
